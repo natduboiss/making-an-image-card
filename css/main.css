@@ -1,0 +1,28 @@
+html {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+.img-flex {
+  display: block;
+  width: 100%;
+}
+
+.card {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  border-radius: 0 6px 6px;
+}
+
+.card-body {
+  padding: .2rem 1rem;
+}
+
+.card-title {
+  margin: 0;
+  padding: .3rem 1rem;
+}
